@@ -1,0 +1,52 @@
+div[class="FlexColumnSecondaryType"] > button[class = "btn btn-primary"] {
+  background-color: #3399ff;
+  width: 95%;
+  height: 95%;
+}
+
+div[class="FlexRowNav"] > button[class = "btn btn-outline-primary"] {
+  border-color: white;
+  margin: 4px;
+}
+
+button[class = "btn btn-secondary"] {
+  width: 100%;
+  height: 20%;
+  margin: 2px 0px 2px 0px;
+  background-color: #3399ff
+}
+
+.FlexColumnPrimaryType{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: space-around;
+  width: 55%;
+}
+
+.FlexColumnSecondaryType{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: space-around;
+  width: 20%;
+  height: 35%;
+  margin: 30px 5px 30px 5px;
+}
+
+.FlexRowNav{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: space-around;
+}
+
+div[class="FlexColumnPrimaryType"] > script[type="text/javascript"]{
+  text-align: center;
+}

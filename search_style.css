@@ -1,0 +1,44 @@
+.searchCategoryHeader {
+    font-weight: bold;
+}
+
+#searchEverythingContent{
+    /* border: 1px solid black; */
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: space-between;
+    flex-wrap: nowrap;
+    width: 50%;
+}
+
+#searchEverythingPeopleBody{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: space-between;
+    flex-wrap: nowrap;
+}
+
+#searchEverythingEventsBody {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    flex-wrap: nowrap;
+}
+
+#searchEverythingLocalgroups {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    flex-wrap: nowrap;
+}

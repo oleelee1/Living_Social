@@ -1,0 +1,50 @@
+
+.FlexRowPrimaryType{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: space-around;
+}
+
+#socialBtn, #communityBtn, #tournamentBtn, #fundraisingBtn, #festivalBtn, #otherBtn{
+  height: 10vh;
+  width: 15vh;
+}
+
+.selectedButton {
+  background-color: SlateBlue;
+}
+
+.rightFloatType {
+  float: right; 
+  position: relative; 
+  width: 20%; 
+  text-align: center;
+}
+
+.inspirationTabs {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  width: 150vh;
+  height: 30vh;
+}
+
+.inspirationEvents {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: space-between;
+  height: 30vh;
+  width: 10vw;
+  margin: 0px 10px 0px 10px;
+}

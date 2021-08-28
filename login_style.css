@@ -1,0 +1,124 @@
+.signup_login_headings {
+  text-align: center;
+}
+
+.location_headings {
+  text-align: center;
+}
+
+#login_signup_field {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  align-content: center;
+}
+
+#location_field{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: flex-start;
+}
+
+#login_field {
+  width: 30%;
+}
+
+#signup_field {
+  width: 70%;
+}
+
+#login_details {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: space-around;
+}
+
+#signup_details {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+#signup_details > div {
+  margin: 0px 40px 0px 40px;
+}
+
+#signup_details > div > div{
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#location_details {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: space-around;
+}
+
+#postcode_details{
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: space-around;
+}
+
+#address_details {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: space-around;
+}
+
+#address_details > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: space-around;
+  margin: 0px 20px 0px 20px;
+}
+
+#address_details > div > div{
+  margin: 20px 0px 0px 0px;
+}
+
+#location_details {
+  width:50vw;
+}
+
+#wrong_details {
+  margin: 5vh;
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  align-content: flex-start;
+}
